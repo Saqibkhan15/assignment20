@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     var signupForm = document.getElementById('signupForm');
 
     signupForm.addEventListener('submit', function(event) {
@@ -10,9 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         alert(`Name: ${name}\nEmail: ${email}\nPassword: ${password}`);
     });
-});
 
-document.addEventListener('DOMContentLoaded', function() {
     var readMoreBtn = document.getElementById('readMore');
     var shortContent = document.getElementById('short');
     var fullContent = document.getElementById('full');
@@ -21,4 +19,3 @@ document.addEventListener('DOMContentLoaded', function() {
         shortContent.style.display = 'none';
         fullContent.style.display = 'block';
     });
-});
